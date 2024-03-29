@@ -16,6 +16,24 @@
       "message": "why?",
       "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "665b13a4_531d0b28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2024-03-29T15:56:59Z",
+      "side": 1,
+      "message": "4.14 needs either those BPF patches that were merged recently into system_bpf and packages_modules_Connectivity or this here to be able to boot QPR2. And actually making BPF work in the kernel is a way more futureproof way in my opinion. I\u0027ve already had this working before it was decided to keep 4.9/4.14 support, so I might as well keep it as preparation for V.",
+      "parentUuid": "3f1bbca2_781593e4",
+      "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
