@@ -34,6 +34,24 @@
       "parentUuid": "3f1bbca2_781593e4",
       "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c68e2cc7_108d40e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-03-29T16:08:35Z",
+      "side": 1,
+      "message": "It\u0027s not making it work in the kernel, it\u0027s faking it when it isn\u0027t needed. 4.9 support had been for a while (before this patch even existed) and 4.14 was added back right when it was removed. Not sure why you would need it as preparation for V as I don\u0027t expect the patches to be dropped in V.",
+      "parentUuid": "665b13a4_531d0b28",
+      "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
