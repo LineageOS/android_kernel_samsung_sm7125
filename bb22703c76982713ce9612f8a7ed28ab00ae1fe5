@@ -52,6 +52,24 @@
       "parentUuid": "665b13a4_531d0b28",
       "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "906ba274_80c363d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-03-29T16:34:12Z",
+      "side": 1,
+      "message": "At least, Bringing BPF to 4.19 level and faking uname to 4.19 would be useful for booting U QPR2+ GSIs from Google. It\u0027s right to do this if he cares GSI support.",
+      "parentUuid": "c68e2cc7_108d40e5",
+      "revId": "bb22703c76982713ce9612f8a7ed28ab00ae1fe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
