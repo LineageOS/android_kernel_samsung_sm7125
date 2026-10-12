@@ -16,6 +16,24 @@
       "message": "just a heads up, you can use the lineage script git-push-merge-review so that it won\u0027t upload commits separately and also spam my email with all the stuff I merged to qcom sm8150 org XD\n\nFirst, I add a remote to make life easier:\n\ngit remote add gerrit ssh://themard@review.lineageos.org:29418/LineageOS/android_kernel_lenovo_sm8150\n\nSecond, I use the script to push to gerrit:\n\n./../../../lineage/scripts/git-push-merge-review/git-push-merge-review gerrit HEAD lineage-24.0\n\nYou can change HEAD to a commit hash if you have a few commits or merges to do.\n\nThen, do code review on gerrit, and once happy, just push it to the branch as gerrit won\u0027t merge merges\n\ngit push gerrit HEAD:refs/heads/lineage-24.0",
       "revId": "9968db0a26919c12d35428cbaa5dcbb187ad19e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40207fd5_24f0c11f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-12T18:25:35Z",
+      "side": 1,
+      "message": "I know, I just accidentally searched in my Shell history and picked the wrong command. I\u0027ve used git-push-merge-review before, but thanks for keeping an eye on it.",
+      "parentUuid": "fa2d58c9_ae1bb0ba",
+      "revId": "9968db0a26919c12d35428cbaa5dcbb187ad19e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
